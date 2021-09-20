@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scaled=1.0" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <title>calculator</title>
+    
+        
+     
+    
+        
+    </head>
+    <body>
+        <div >
+            <form class="cgpa_container">
+            <div class="cgpa_title"><h2>CGPA Calculator</h2></div>
+            <input type="text" id="first" placeholder="1st-semester">
+            <input type="text" id="second" placeholder="2nd-semester">
+            <input type="text" id="third" placeholder="3rd-semester">
+            <input type="text" id="four" placeholder="4th-semester">
+            <input type="text" id="five" placeholder="5th-semester">
+            <input type="text" id="six" placeholder="6th-semester">
+            <input type="text" id="seven" placeholder="7th-semester">
+            <input type="text" id="eight" placeholder="8th-semester">
+
+            <div class="cgpa_output">
+            
+              <h3 id="Total">Total CGPA =</h3>
+                
+              <input id="btn_re"type="reset" value="Reset" onclick="reset()">
+                  
+              <input type="button" name="Sumbit" value="Submit" id="btn_sum" onclick="calculate()">
+            
+        
+            </div>
+            </form>
+            
+        </div>
+       
+        
+        <script src="cgpa.js"></script>
+    </body>
+</html>
